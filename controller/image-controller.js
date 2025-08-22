@@ -1,4 +1,4 @@
-const Image = require("../model/Image"); // Import the Image model
+const Image = require("../model/image"); // Import the Image model
 const { uploadToCloudinary } = require("../helpers/cloudinaryHelper");
 const cloudinary = require("../config/cloudinary"); // Import Cloudinary configuration
 const fs = require("fs"); // Import file system module
